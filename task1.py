@@ -9,6 +9,12 @@ Example:
 assert find('apple') == 0
 assert find('fish') == 5
 '''
+filename = 'task01.txt'
+file = open(filename,'r')
+
+"""
+def find(x):
+ return fitask01.txt.read()
 def find(needle):
     pass
 
@@ -16,3 +22,4 @@ def find(needle):
 if __name__ == "__main__":
     assert find('apple') == 0
     assert find('fish') == 5
+"""
