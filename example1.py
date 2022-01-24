@@ -14,6 +14,9 @@ Flag may be:
 filename = 'data01.txt'
 file = open(filename,'r')
 
+f = open("data01.txt", "r")
+
+print(f.read())
 
 '''
 Note that if you determine the type of the file, it is not the standard
