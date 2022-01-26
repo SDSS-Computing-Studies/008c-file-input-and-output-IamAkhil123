@@ -1,4 +1,5 @@
 #!python3
+
 '''
 Read the data from the file task01.txt
 Create a function called find().
@@ -9,18 +10,19 @@ Example:
 assert find('apple') == 0
 assert find('fish') == 5
 '''
-"""
+
 x = "apple"
 
 def find(x):
  a_file = open("task01.txt", "r")
  list = [(line.strip()).split() for line in a_file]
  a_file.close()
- return list.index(x)
+ p = list.index(x)
+ return p
 
 z = find(x)
 print (z)
-"""
+
 """
 def find(x):
  return fitask01.txt.read()
@@ -31,10 +33,9 @@ def find(needle):
 if __name__ == "__main__":
     assert find('apple') == 0
     assert find('fish') == 5
-"""
 
 list [1,2,3,4,5]
 
 print (list.index(1))
-
+"""
 
