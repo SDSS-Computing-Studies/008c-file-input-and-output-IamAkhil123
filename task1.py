@@ -11,7 +11,7 @@ assert find('apple') == 0
 assert find('fish') == 5
 '''
 
-x = "apple"
+x = ["apple"]
 
 def find(x):
  a_file = open("task01.txt", "r")
