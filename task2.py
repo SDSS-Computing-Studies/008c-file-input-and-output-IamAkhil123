@@ -1,17 +1,15 @@
 #!python3
 
+from os import X_OK
+
+
+a_file = open("task02.csv", "r")
+list = [(line.strip()) for line in a_file]
+a_file.close()
+print(list)
+
 x = input("Enter stock symbol")
-
-filename = "task02.csv"
-file = open(filename,"r")
-data = file.read()
-lineData = data.split("\n")
-newList = []
-for line in lineData:
-    tempList = line.split(',')
-    print(tempList)
-    newList.append(tempList)
-
+y = list.index(x)
 
 """
 ##### Task 2
