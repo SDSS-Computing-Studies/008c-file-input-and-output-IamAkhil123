@@ -1,5 +1,7 @@
 #!python3
 
+x = input("Enter stock symbol")
+
 filename = "task02.csv"
 file = open(filename,"r")
 data = file.read()
@@ -9,7 +11,6 @@ for line in lineData:
     tempList = line.split(',')
     print(tempList)
     newList.append(tempList)
-print(newList)
 
 
 """

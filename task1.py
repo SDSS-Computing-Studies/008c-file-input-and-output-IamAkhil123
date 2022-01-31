@@ -21,7 +21,7 @@ def find(x):
  return p
 
 z = find(x)
-print (z)
+print(z)
 
 """
 def find(x):
